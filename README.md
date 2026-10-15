@@ -440,3 +440,12 @@ Star the repo if you find it useful!
 **Made for systems engineers, edge developers, and teams building portable, isolated compute.**  
 
 Let's expand open WebAssembly runtimes while recognizing the global edge footprint that commercial Wasm platforms deliver.
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Webassembly-Runtimes&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Webassembly-Runtimes_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Webassembly-Runtimes_growth.svg">
+  </picture>
+</a>
