@@ -209,3 +209,119 @@ Star the repo if you find it useful!
 Let's expand open workflow orchestration while recognizing the managed convenience that hosted Airflow, Prefect, Dagster, and Temporal clouds deliver.
 # Awesome-Webassembly-Runtimes
 
+# Top WebAssembly Runtimes Ecosystem
+
+**Curated List of SaaS Products & Open-Source GitHub Projects**  
+*Focused on Wasm Execution Engines, Edge Compute, Component Model, WASI & Portable Server-Side WebAssembly*  
+**Last updated: October 2026**
+
+This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **WebAssembly Runtimes**. These systems execute Wasm modules outside the browser—on servers, at the edge, in plugins, and inside containers—with strong isolation and near-native speed.
+
+**Examples** include Wasmer Cloud, Fermyon Cloud, Fastly Compute (Wasm), Cloudflare Workers, Cosmonic, Suborbital, Second State, Docker Wasm, Red Hat Wasm, Azure Wasm Labs, and **Wasmtime** (`bytecodealliance/wasmtime`)—a standalone JIT-style runtime for WebAssembly.
+
+**Open-source emphasis**: Wasm runtimes are led by open source. **Wasmtime**, **Wasmer**, **WasmEdge**, **WAMR**, and **wasm3** form the core execution layer. This section is heavily expanded.
+
+Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+
+## Table of Contents
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+## SaaS/Hosted Platforms
+
+- **[Cloudflare Workers, Fastly Compute](https://workers.cloudflare.com/)**  
+  Edge compute platforms with first-class WebAssembly support for ultra-low-latency serverless workloads worldwide.
+
+- **[Fermyon Cloud, Wasmer Cloud](https://www.fermyon.com/)**  
+  Hosted platforms purpose-built for deploying and scaling Wasm applications and Spin-style microservices.
+
+- **[Cosmonic, Second State, Suborbital-oriented services](https://cosmonic.com/)**  
+  Wasm-centric application platforms and plugin runtimes for distributed and embeddable compute.
+
+- **[Docker Wasm / cloud provider Wasm previews](https://docs.docker.com/)**  
+  Container and cloud integrations that run Wasm modules alongside or instead of traditional containers.
+
+- **[Other managed Wasm platforms](https://www.fastly.com/products/edge-compute)**  
+  Additional edge and serverless offerings exposing Wasm as the unit of deployment.
+
+## Open-Source GitHub Projects
+
+### Core Runtimes
+
+- **[Wasmtime](https://github.com/bytecodealliance/wasmtime)**  
+  Standalone open JIT-style WebAssembly runtime from the Bytecode Alliance—WASI, Component Model, and production-focused embedding APIs.
+
+- **[Wasmer](https://github.com/wasmerio/wasmer)**  
+  Popular open Wasm runtime—multiple compiler backends, WASIX, and a strong focus on universal executables and packaging.
+
+- **[WasmEdge](https://github.com/WasmEdge/WasmEdge)**  
+  Cloud-native open Wasm runtime optimized for edge and service-mesh sidecars—CNCF project with rich extensions.
+
+- **[WAMR (WebAssembly Micro Runtime)](https://github.com/bytecodealliance/wasm-micro-runtime)**  
+  Lightweight open runtime from the Bytecode Alliance—suited to embedded devices and constrained environments.
+
+- **[wasm3](https://github.com/wasm3/wasm3)**  
+  Fast open WebAssembly interpreter—extremely portable and useful where JIT is unavailable.
+
+- **[WasmKit / other experimental engines](https://github.com/search?q=webassembly+runtime)**  
+  Community and research runtimes exploring alternate designs and languages.
+
+### Platform Tooling & Standards
+
+- **[Spin (Fermyon)](https://github.com/fermyon/spin)**  
+  Open framework for building and running Wasm microservices with a developer-friendly DX.
+
+- **[WASI / wasi-sdk](https://github.com/WebAssembly/wasi)**  
+  Open system-interface standards and toolchains that let Wasm modules talk to files, clocks, and sockets portably.
+
+- **[Component Model & wit-bindgen](https://github.com/bytecodealliance/wit-bindgen)**  
+  Open tooling for the Wasm Component Model—language bindings and interface types for composable modules.
+
+- **[wasm-tools](https://github.com/bytecodealliance/wasm-tools)**  
+  Open CLI and libraries for inspecting, validating, and transforming Wasm binaries.
+
+- **[wasm-pack / wasm-bindgen](https://github.com/rustwasm/wasm-pack)**  
+  Open Rust-to-Wasm tooling widely used for both browser and server-side modules.
+
+- **[Docker + Wasm runtimes integration](https://github.com/containerd/runwasi)**  
+  Open containerd shims (e.g. runwasi) enabling Wasm workloads under container workflows.
+
+- **[Extism](https://github.com/extism/extism)**  
+  Open universal plugin system powered by WebAssembly—embed Wasm plugins in many host languages.
+
+### Additional Strong Open-Source Options
+
+- **General server/embed**: Wasmtime or Wasmer.
+- **Edge / cloud-native**: WasmEdge.
+- **Tiny / embedded**: WAMR or wasm3.
+- **App framework**: Spin for microservice-style Wasm apps.
+- **Plugins**: Extism for host-application extensibility.
+- **Composable stacks**: Rust/Go/C → Wasm module → Wasmtime/Wasmer/WasmEdge → WASI or Component Model.
+- Hosted edge platforms still lead for global PoP distribution and zero-ops scaling.
+
+**Frameworks for building custom systems**:  
+**Wasmtime** for standards-aligned embedding; **Wasmer** for packaging and WASIX; **WasmEdge** for cloud-native edge; **Spin** for app-level DX.  
+Target **WASI** and the **Component Model** for portability.  
+Fully open Wasm runtime stacks are production-ready for plugins, edge functions, and portable services.
+
+## How to Contribute
+
+1. Fork the repo.
+2. Add/edit entries in `README.md` (follow existing format).
+3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
+4. Submit PR with a short explanation.
+
+Star the repo if you find it useful!
+
+## Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Wasm isolation is strong but not a substitute for defense in depth. Limit host capabilities granted via WASI, validate modules, and keep runtimes updated. Untrusted Wasm still requires careful capability design.
+- Open-source runtimes offer transparency and embeddability. Managed edge platforms shift global distribution and scaling to the vendor. Neither replaces secure supply-chain practices for the modules you run.
+
+---
+
+**Made for systems engineers, edge developers, and teams building portable, isolated compute.**  
+Let's expand open WebAssembly runtimes while recognizing the global edge footprint that commercial Wasm platforms deliver.
