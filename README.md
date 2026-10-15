@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Webassembly-Runtimes/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Webassembly-Runtimes?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Webassembly-Runtimes/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Webassembly-Runtimes?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Webassembly-Runtimes/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Webassembly-Runtimes?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Webassembly-Runtimes/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Webassembly-Runtimes/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License"/></a>
@@ -64,63 +64,63 @@ The following hosted platforms and managed cloud runtimes offer turnkey WebAssem
 
 ## 🛠️ Open-Source GitHub Projects
 
-Curated open-source WebAssembly execution engines, runtimes, intermediate compilers, and standardization toolchains. **Sorted descending by real-time GitHub Star count**.
+Curated open-source WebAssembly execution engines, runtimes, intermediate compilers, and standardization toolchains. **Sorted descending by real-time GitHub Stars_Count**.
 
-1. **[Wasmer](https://github.com/wasmerio/wasmer)** [![GitHub stars](https://img.shields.io/github/stars/wasmerio/wasmer?style=social&color=white)](https://github.com/wasmerio/wasmer/stargazers)  
+1. **[Wasmer](https://github.com/wasmerio/wasmer)** [![GitHub_Stars](https://img.shields.io/github/stars/wasmerio/wasmer?style=social&color=white)](https://github.com/wasmerio/wasmer/stargazers)  
    🚀 Ultra-fast and lightweight WebAssembly runtime supporting multiple compiler backends (Cranelift, LLVM, Singlepass), WASIX extensions for full POSIX compatibility, and universal binary compilation.
 
-2. **[Wasmtime](https://github.com/bytecodealliance/wasmtime)** [![GitHub stars](https://img.shields.io/github/stars/bytecodealliance/wasmtime?style=social&color=white)](https://github.com/bytecodealliance/wasmtime/stargazers)  
+2. **[Wasmtime](https://github.com/bytecodealliance/wasmtime)** [![GitHub_Stars](https://img.shields.io/github/stars/bytecodealliance/wasmtime?style=social&color=white)](https://github.com/bytecodealliance/wasmtime/stargazers)  
    ⚡ The standalone JIT WebAssembly runtime from the Bytecode Alliance. Industry benchmark for WASI implementation, high-security capability sandboxing, and official Wasm Component Model support.
 
-3. **[AssemblyScript](https://github.com/AssemblyScript/assemblyscript)** [![GitHub stars](https://img.shields.io/github/stars/AssemblyScript/assemblyscript?style=social&color=white)](https://github.com/AssemblyScript/assemblyscript/stargazers)  
+3. **[AssemblyScript](https://github.com/AssemblyScript/assemblyscript)** [![GitHub_Stars](https://img.shields.io/github/stars/AssemblyScript/assemblyscript?style=social&color=white)](https://github.com/AssemblyScript/assemblyscript/stargazers)  
    🟦 TypeScript-like programming language designed specifically for compiling strictly-typed code directly into lightweight WebAssembly binaries.
 
-4. **[TinyGo](https://github.com/tinygo-org/tinygo)** [![GitHub stars](https://img.shields.io/github/stars/tinygo-org/tinygo?style=social&color=white)](https://github.com/tinygo-org/tinygo/stargazers)  
+4. **[TinyGo](https://github.com/tinygo-org/tinygo)** [![GitHub_Stars](https://img.shields.io/github/stars/tinygo-org/tinygo?style=social&color=white)](https://github.com/tinygo-org/tinygo/stargazers)  
    🐹 Go compiler optimized for constrained environments, microcontrollers, and ultra-compact WebAssembly / WASI builds with minimal runtime overhead.
 
-5. **[WasmEdge](https://github.com/WasmEdge/WasmEdge)** [![GitHub stars](https://img.shields.io/github/stars/WasmEdge/WasmEdge?style=social&color=white)](https://github.com/WasmEdge/WasmEdge/stargazers)  
+5. **[WasmEdge](https://github.com/WasmEdge/WasmEdge)** [![GitHub_Stars](https://img.shields.io/github/stars/WasmEdge/WasmEdge?style=social&color=white)](https://github.com/WasmEdge/WasmEdge/stargazers)  
    🌐 CNCF-hosted, lightweight, high-performance WebAssembly runtime optimized for cloud-native edge computing, Kubernetes sidecars, and hardware-accelerated AI/LLM inference.
 
-6. **[wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)** [![GitHub stars](https://img.shields.io/github/stars/rustwasm/wasm-bindgen?style=social&color=white)](https://github.com/rustwasm/wasm-bindgen/stargazers)  
+6. **[wasm-bindgen](https://github.com/rustwasm/wasm-bindgen)** [![GitHub_Stars](https://img.shields.io/github/stars/rustwasm/wasm-bindgen?style=social&color=white)](https://github.com/rustwasm/wasm-bindgen/stargazers)  
    🦀 Facilitates seamless, zero-copy high-level interactions between Rust data structures and WebAssembly host environments.
 
-7. **[Binaryen](https://github.com/WebAssembly/binaryen)** [![GitHub stars](https://img.shields.io/github/stars/WebAssembly/binaryen?style=social&color=white)](https://github.com/WebAssembly/binaryen/stargazers)  
+7. **[Binaryen](https://github.com/WebAssembly/binaryen)** [![GitHub_Stars](https://img.shields.io/github/stars/WebAssembly/binaryen?style=social&color=white)](https://github.com/WebAssembly/binaryen/stargazers)  
    ⚙️ WebAssembly compiler and toolchain infrastructure library providing comprehensive dead-code elimination, performance optimization, and IR generation passes.
 
-8. **[WABT (WebAssembly Binary Toolkit)](https://github.com/WebAssembly/wabt)** [![GitHub stars](https://img.shields.io/github/stars/WebAssembly/wabt?style=social&color=white)](https://github.com/WebAssembly/wabt/stargazers)  
+8. **[WABT (WebAssembly Binary Toolkit)](https://github.com/WebAssembly/wabt)** [![GitHub_Stars](https://img.shields.io/github/stars/WebAssembly/wabt?style=social&color=white)](https://github.com/WebAssembly/wabt/stargazers)  
    🧰 The canonical tool suite for manipulating Wasm files, including `wasm2wat`, `wat2wasm`, `wasm-interp`, `wasm-objdump`, and `wasm-decompile`.
 
-9. **[wasm3](https://github.com/wasm3/wasm3)** [![GitHub stars](https://img.shields.io/github/stars/wasm3/wasm3?style=social&color=white)](https://github.com/wasm3/wasm3/stargazers)  
+9. **[wasm3](https://github.com/wasm3/wasm3)** [![GitHub_Stars](https://img.shields.io/github/stars/wasm3/wasm3?style=social&color=white)](https://github.com/wasm3/wasm3/stargazers)  
    🚀 The fastest WebAssembly interpreter in existence. Fully portable C99 engine with zero JIT compilation lag, running on Arduino, ESP32, Raspberry Pi, iOS, and embedded chips.
 
-10. **[Spin](https://github.com/spinframework/spin)** [![GitHub stars](https://img.shields.io/github/stars/spinframework/spin?style=social&color=white)](https://github.com/spinframework/spin/stargazers)  
+10. **[Spin](https://github.com/spinframework/spin)** [![GitHub_Stars](https://img.shields.io/github/stars/spinframework/spin?style=social&color=white)](https://github.com/spinframework/spin/stargazers)  
     🌀 Open-source developer framework and CLI by Fermyon for building, testing, and deploying microservices and event-driven functions using WebAssembly components.
 
-11. **[wazero](https://github.com/tetratelabs/wazero)** [![GitHub stars](https://img.shields.io/github/stars/tetratelabs/wazero?style=social&color=white)](https://github.com/tetratelabs/wazero/stargazers)  
+11. **[wazero](https://github.com/tetratelabs/wazero)** [![GitHub_Stars](https://img.shields.io/github/stars/tetratelabs/wazero?style=social&color=white)](https://github.com/tetratelabs/wazero/stargazers)  
     🟢 Pure Go WebAssembly runtime with zero CGO dependencies and full WASI support, making Go application embedding effortless and totally portable.
 
-12. **[WAMR (WebAssembly Micro Runtime)](https://github.com/bytecodealliance/wasm-micro-runtime)** [![GitHub stars](https://img.shields.io/github/stars/bytecodealliance/wasm-micro-runtime?style=social&color=white)](https://github.com/bytecodealliance/wasm-micro-runtime/stargazers)  
+12. **[WAMR (WebAssembly Micro Runtime)](https://github.com/bytecodealliance/wasm-micro-runtime)** [![GitHub_Stars](https://img.shields.io/github/stars/bytecodealliance/wasm-micro-runtime?style=social&color=white)](https://github.com/bytecodealliance/wasm-micro-runtime/stargazers)  
     🔬 Ultra-small-footprint runtime from the Bytecode Alliance configurable as an interpreter, JIT, or AOT compiler for resource-constrained IoT devices.
 
-13. **[Extism](https://github.com/extism/extism)** [![GitHub stars](https://img.shields.io/github/stars/extism/extism?style=social&color=white)](https://github.com/extism/extism/stargazers)  
+13. **[Extism](https://github.com/extism/extism)** [![GitHub_Stars](https://img.shields.io/github/stars/extism/extism?style=social&color=white)](https://github.com/extism/extism/stargazers)  
     🔌 Universal WebAssembly plugin framework providing unified Host SDKs across 16+ programming languages to securely execute untrusted guest plugins.
 
-14. **[Lunatic](https://github.com/lunatic-solutions/lunatic)** [![GitHub stars](https://img.shields.io/github/stars/lunatic-solutions/lunatic?style=social&color=white)](https://github.com/lunatic-solutions/lunatic/stargazers)  
+14. **[Lunatic](https://github.com/lunatic-solutions/lunatic)** [![GitHub_Stars](https://img.shields.io/github/stars/lunatic-solutions/lunatic?style=social&color=white)](https://github.com/lunatic-solutions/lunatic/stargazers)  
     🌕 Erlang-inspired, actor-based runtime for WebAssembly combining preemptive scheduling, lightweight isolated processes, and fault-tolerant supervision trees.
 
-15. **[wasmCloud](https://github.com/wasmCloud/wasmCloud)** [![GitHub stars](https://img.shields.io/github/stars/wasmCloud/wasmCloud?style=social&color=white)](https://github.com/wasmCloud/wasmCloud/stargazers)  
+15. **[wasmCloud](https://github.com/wasmCloud/wasmCloud)** [![GitHub_Stars](https://img.shields.io/github/stars/wasmCloud/wasmCloud?style=social&color=white)](https://github.com/wasmCloud/wasmCloud/stargazers)  
     ☁️ CNCF application runtime that lets developers compose portable WebAssembly actor components with decoupled capability providers across any infrastructure.
 
-16. **[wasm-tools](https://github.com/bytecodealliance/wasm-tools)** [![GitHub stars](https://img.shields.io/github/stars/bytecodealliance/wasm-tools?style=social&color=white)](https://github.com/bytecodealliance/wasm-tools/stargazers)  
+16. **[wasm-tools](https://github.com/bytecodealliance/wasm-tools)** [![GitHub_Stars](https://img.shields.io/github/stars/bytecodealliance/wasm-tools?style=social&color=white)](https://github.com/bytecodealliance/wasm-tools/stargazers)  
     🔧 Low-level CLI utilities and Rust libraries for inspecting, validating, mutating, stripping, and composing WebAssembly binaries and components.
 
-17. **[wit-bindgen](https://github.com/bytecodealliance/wit-bindgen)** [![GitHub stars](https://img.shields.io/github/stars/bytecodealliance/wit-bindgen?style=social&color=white)](https://github.com/bytecodealliance/wit-bindgen/stargazers)  
+17. **[wit-bindgen](https://github.com/bytecodealliance/wit-bindgen)** [![GitHub_Stars](https://img.shields.io/github/stars/bytecodealliance/wit-bindgen?style=social&color=white)](https://github.com/bytecodealliance/wit-bindgen/stargazers)  
     🧩 Multi-language binding generator for WebAssembly Interface Types (WIT), powering seamless inter-module communication in the Wasm Component Model.
 
-18. **[runwasi](https://github.com/containerd/runwasi)** [![GitHub stars](https://img.shields.io/github/stars/containerd/runwasi?style=social&color=white)](https://github.com/containerd/runwasi/stargazers)  
+18. **[runwasi](https://github.com/containerd/runwasi)** [![GitHub_Stars](https://img.shields.io/github/stars/containerd/runwasi?style=social&color=white)](https://github.com/containerd/runwasi/stargazers)  
     🐳 Containerd runtime shim enabling Kubernetes, Nomad, and Docker clusters to execute WebAssembly workloads directly as native Pods and containers.
 
-19. **[Chicory](https://github.com/dylibso/chicory)** [![GitHub stars](https://img.shields.io/github/stars/dylibso/chicory?style=social&color=white)](https://github.com/dylibso/chicory/stargazers)  
+19. **[Chicory](https://github.com/dylibso/chicory)** [![GitHub_Stars](https://img.shields.io/github/stars/dylibso/chicory?style=social&color=white)](https://github.com/dylibso/chicory/stargazers)  
     ☕ Native Java/JVM WebAssembly runtime with zero JNI bindings or native binary dependencies, bringing safe sandbox isolation into existing enterprise JVM applications.
 
 ---
@@ -175,3 +175,12 @@ If you found this repository helpful for your projects, research, or architectur
 - This is a **community-curated** educational directory — not an official endorsement of any vendor or tool.
 - WebAssembly isolation provides strong memory safety, but defense in depth remains essential. Restrict host capabilities granted through WASI interfaces, validate untrusted binaries, and keep your host runtimes updated.
 - All product names, logos, and trademarks belong to their respective copyright holders.
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Webassembly-Runtimes&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Webassembly-Runtimes_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Webassembly-Runtimes_growth.svg">
+  </picture>
+</a>
